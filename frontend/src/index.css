@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Antonio&family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=PT+Serif&family=Questrial&family=Qwigley&family=Raleway&family=Tiro+Gurmukhi&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Work+Sans:wght@100;200;300;400;500;600;700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: "Work Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #454545;
+}
+
+
+
+table{
+  border-collapse: collapse;
+  margin: auto;
+  text-align: center;
+    /* margin: 25px 0; */
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+thead tr {
+  background-color: #009879;
+  color: #ffffff;
+}
+th, td {
+  padding: 12px 15px;
+}
+tbody tr {
+  text-align: left;
+  border-bottom: 1px solid #dddddd;
+}
+tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+@media only screen and (max-width: 992px){
+.headerContainerNew header.dark .ic.menu .line {
+  background-color: #fff;
+}
+
+.headerContainerNew .ic.menu .line {
+  transition: all 0.4s ease 0s;
+  transform: rotate(0deg);
+  transform-origin: center center;
+}
+
+  .headerContainerNew ul.main-nav {
+    z-index: 2;
+    padding: 50px 0;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    width: 0px;
+    background-color: #1f83c6;
+    height: 100%;
+    overflow: auto;
+    transition-property: background, width;
+    transition-duration: 0.6s;
+  }
+}
